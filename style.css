@@ -1,0 +1,28 @@
+/* CSS 選擇器 */
+/* 標籤名稱選擇器 */
+body{
+    background-color: burlywood;
+    font-family: "微軟正黑體","新細明體";
+}
+/* ID 選擇器 */
+#del{
+    text-decoration: line-through;
+}
+/* Class 選擇器 */
+.title{
+    font-size: 24px; 
+    font-weight: bold;
+}
+.content{
+    /* height、width 預設值是 auto */
+    width: 500px; 
+    border: 2px dashed green;
+    padding: 10px; 
+    margin-top: 10px;
+}
+.keyword{
+    color: blue;
+}
+.underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /> <!-- 萬國碼(打中文不會出現亂碼) -->
+<title>My Homepage</title>
+</head>
+<body>
+    <!--
+        關於換行
+            1. 程式碼中的換行不重要
+            2. 標籤的顯示模式 (display)
+                2.1 行內模式  inline          (h3.hr)
+                2.2 區塊模式  block (自動換行) (img.a)
+            3. 隨時可以用 <br/> 標籤換行
+    -->
+
+    <!-- 這裡是網頁的主畫面 -->
+    
+    <h3>
+        我的 <br/><!-- 換行 --> <u>基本資料 <!-- under line --> </u>
+    </h3>
+    
+    <hr/><!-- <hr></hr> -->
+
+    <a target="_blank" href="https://www.google.com/">Google</a>
+    <!-- target="_blank" 另開視窗 -->
+
+    <img src="about.png"/><!-- </img> -->
+    <h3>My Favorites</h3>
+    <ul><!-- 無序列表 -->
+        <li>Google</li>
+        <li>Facebook</li>
+    </ul>
+    <ol><!-- 有序列表 -->
+        <li>
+            <a href="https://www.google.com/">Google</a>
+        </li>
+        <li>Facebook</li>
+    </ol>
+    <h3>MLB Board</h3>
+    <!-- 表格 -->
+    <table border="1px" width="400" cellpadding="10">
+        <!-- cellpadding 線之間的距離 -->
+
+        <tr> 
+            <td colspan="3">America East</td> 
+            <!-- colspan 可越過3個攔 -->
+        </tr>
+        <!-- 橫 -->
+        <tr>
+            <!-- 直 -->
+            <td>Name</td>
+            <td>Win</td>
+            <td>Lose</td>
+        </tr>
+        <tr>
+            <td>New York Yankees</td>
+            <td>10</td>
+            <td>9</td>
+        </tr>
+        <tr>    
+            <td>Boston Red Sox</td>
+            <td>9</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>    
